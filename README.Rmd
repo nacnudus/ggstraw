@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# ggdomino
+# ggstraw
 
 > One damned thing after another
 
@@ -21,17 +21,17 @@ related to one object, e.g. scheduled and actual arrival.
 
 ## Installation
 
-You can install ggdomino from github with:
+You can install ggstraw from github with:
 
 ```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
-devtools::install_github("nacnudus/ggdomino")
+devtools::install_github("nacnudus/ggstraw")
 ```
 
 ## Example
 
 ```{r example}
 library(ggplot2)
-library(ggdomino)
-example(geom_domino)
+library(ggstraw)
+example(geom_straw)
 ```

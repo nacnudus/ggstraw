@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-ggdomino
-========
+ggstraw
+=======
 
 > One damned thing after another
 
@@ -10,11 +10,11 @@ A geom for the 'ggplot2' package to visualize the difference between two events 
 Installation
 ------------
 
-You can install ggdomino from github with:
+You can install ggstraw from github with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("nacnudus/ggdomino")
+devtools::install_github("nacnudus/ggstraw")
 ```
 
 Example
@@ -22,21 +22,21 @@ Example
 
 ``` r
 library(ggplot2)
-library(ggdomino)
-example(geom_domino)
+library(ggstraw)
+example(geom_straw)
 #> 
-#> gm_dmn> # Plot a subset of the nycflights13 data
-#> gm_dmn> library(ggplot2)
+#> gm_str> # Plot a subset of the nycflights13 data
+#> gm_str> library(ggplot2)
 #> 
-#> gm_dmn> ggplot(ggdomino::flights_example,
-#> gm_dmn+          aes(sched_dep_time, carrier, xend = dep_time, colour = late)) +
-#> gm_dmn+   geom_domino() +
-#> gm_dmn+   scale_colour_manual("Late", values = c("black", "red")) +
-#> gm_dmn+   xlab("") +
-#> gm_dmn+   ylab("Carrier") +
-#> gm_dmn+   ggtitle("Departure times from New York to Boston", sub = "Scheduled vs actual") +
-#> gm_dmn+   theme_minimal() +
-#> gm_dmn+   theme(panel.grid = element_blank())
+#> gm_str> ggplot(ggstraw::flights_example,
+#> gm_str+          aes(sched_dep_time, carrier, xend = dep_time, colour = late)) +
+#> gm_str+   geom_straw() +
+#> gm_str+   scale_colour_manual("Late", values = c("black", "red")) +
+#> gm_str+   xlab("") +
+#> gm_str+   ylab("Carrier") +
+#> gm_str+   ggtitle("Departure times from New York to Boston", sub = "Scheduled vs actual") +
+#> gm_str+   theme_minimal() +
+#> gm_str+   theme(panel.grid = element_blank())
 ```
 
 ![](README-example-1.png)

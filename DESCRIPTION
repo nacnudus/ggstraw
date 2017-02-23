@@ -1,5 +1,5 @@
-Package: ggdomino
-Title: Domino 'Geom' for 'ggplot2'
+Package: ggstraw
+Title: Straw 'Geom' for 'ggplot2'
 Version: 0.0.1
 Authors@R: person("Duncan", "Garmonsway", email = "nacnudus@gmail.com", role = c("aut", "cre"))
 Description: Provides an extra 'geom' for the 'ggplot2' package to visualize the
