@@ -1,0 +1,5 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^temp\.R$
+^tags$
+^temp\.png$
