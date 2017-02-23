@@ -1,0 +1,37 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# ggdomino
+
+> One damned thing after another
+
+A geom for the 'ggplot2' package to visualize the difference between two events
+related to one object, e.g. scheduled and actual arrival.
+
+## Installation
+
+You can install ggdomino from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("nacnudus/ggdomino")
+```
+
+## Example
+
+```{r example}
+library(ggplot2)
+library(ggdomino)
+example(geom_domino)
+```
