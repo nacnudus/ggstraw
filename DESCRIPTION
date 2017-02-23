@@ -1,8 +1,10 @@
 Package: ggdomino
-Title: What the Package Does (one line, title case)
+Title: Domino 'Geom' for 'ggplot2'
 Version: 0.0.1
 Authors@R: person("Duncan", "Garmonsway", email = "nacnudus@gmail.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: Provides an extra 'geom' for the 'ggplot2' package to visualize the
+    difference between two events related to one object, e.g. scheduled and actual
+    arrival.
 Depends: R (>= 3.3.2)
 License: MIT + file LICENSE
 Encoding: UTF-8
