@@ -62,22 +62,7 @@ related to one object, e.g. scheduled and actual arrival.
 }
 \section{Aesthetics}{
 
-
-{\code{geom_segment} understands the following aesthetics (required aesthetics are in bold):
-
-\itemize{
-  \item \code{\strong{x}}
-  \item \code{\strong{y}}
-  \item \code{\strong{xend}}
-  \item \code{\strong{yend}}
-  \item \code{alpha}
-  \item \code{colour}
-  \item \code{group}
-  \item \code{linetype}
-  \item \code{size}
-}
-}
-
+\aesthetics{geom}{segment}
 }
 
 \examples{

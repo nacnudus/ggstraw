@@ -7,7 +7,9 @@
 #' This is useful for visualising the difference in time between two events
 #' related to one object, e.g. scheduled and actual arrival.
 #'
-#' @inheritSection ggplot2::geom_segment Aesthetics
+#' @section Aesthetics:
+#' \aesthetics{geom}{segment}
+#'
 #' @inheritParams ggplot2::geom_segment
 #' @seealso \code{\link{geom_segment}}, from which \code{geom_straw} inherits.
 #' @export
