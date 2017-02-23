@@ -3,3 +3,8 @@
 ^temp\.R$
 ^tags$
 ^temp\.png$
+^\.travis\.yml$
+^appveyor\.yml$
+^README\.Rmd$
+^README\.html$
+^README-.*\.png$
