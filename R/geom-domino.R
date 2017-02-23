@@ -12,6 +12,7 @@
 #' @seealso \code{\link{geom_segment}}, from which \code{geom_domino} inherits.
 #' @export
 #' @examples
+#' # Plot a subset of the nycflights13 data
 #' library(ggplot2)
 #' ggplot(ggdomino::flights_example,
 #'          aes(sched_dep_time, carrier, xend = dep_time, colour = late)) +

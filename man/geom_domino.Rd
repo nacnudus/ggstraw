@@ -81,6 +81,7 @@ related to one object, e.g. scheduled and actual arrival.
 }
 
 \examples{
+# Plot a subset of the nycflights13 data
 library(ggplot2)
 ggplot(ggdomino::flights_example,
          aes(sched_dep_time, carrier, xend = dep_time, colour = late)) +
