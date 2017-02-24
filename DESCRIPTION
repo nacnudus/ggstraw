@@ -5,7 +5,7 @@ Authors@R: person("Duncan", "Garmonsway", email = "nacnudus@gmail.com", role = c
 Description: Provides an extra 'geom' for the 'ggplot2' package to visualize the
     difference between two events related to one object, e.g. scheduled and actual
     arrival.
-Depends: R (>= 3.3.2)
+Depends: R (>= 3.2.5)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
