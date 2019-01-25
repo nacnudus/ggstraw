@@ -16,13 +16,23 @@
 #' @examples
 #' # Plot a subset of the nycflights13 data
 #' library(ggplot2)
-#' ggplot(ggstraw::flights_example,
-#'          aes(sched_dep_time, carrier, xend = dep_time, colour = late)) +
+#' ggplot(ggstraw::flights,
+#'        aes(sched_dep_time, carrier, xend = dep_time, colour = late)) +
 #'   geom_straw() +
 #'   scale_colour_manual("Late", values = c("black", "red")) +
 #'   xlab("") +
 #'   ylab("Carrier") +
 #'   ggtitle("Departure times from New York to Boston", sub = "Scheduled vs actual") +
+#'   theme_minimal() +
+#'   theme(panel.grid = element_blank())
+#'
+#' # Plot a subset of the London Underground Metropolitan Line timetable
+#' ggplot(ggstraw::timetable, aes(x = departure, xend = arrival, y = day)) +
+#'   geom_straw() +
+#'   xlab("") +
+#'   ylab("") +
+#'   ggtitle("Metropolitan timetable from Harrow-on-the-Hill to Moor Park",
+#'   subtitle = "Scheduled departure time (bottom) and scheduled arrival time (top)") +
 #'   theme_minimal() +
 #'   theme(panel.grid = element_blank())
 geom_straw <- function(mapping = NULL, data = NULL, stat = "identity",
